@@ -1,0 +1,188 @@
+.productdetails {
+  display: flex;
+}
+
+.productimage {
+  display: flex;
+}
+.smallproductimage {
+  padding-top: 100px;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.smallproductimage > img {
+  width: 100px;
+  height: 90px;
+  margin-right: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.smallproductimage > img:hover {
+  margin-right: 20px;
+  width: 130px;
+  height: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  outline: 3px solid rgb(245, 245, 245);
+}
+.bigproductimage > img {
+  width: 850px;
+  height: 700px;
+  margin-top: 100px;
+
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.swatchbox {
+  width: 30px;
+  height: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.swatch {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.swatchbox:hover {
+  width: 30px;
+  height: 30px;
+
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  outline: 1px solid grey;
+}
+
+.productright {
+  margin: 100px;
+}
+
+.text {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.productname {
+  /* Apollo */
+
+  width: 292px;
+  height: 27px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 27px;
+  /* identical to box height, or 90% */
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 50px;
+  color: #1d1f22;
+}
+
+.descriptiontext {
+  height: 300px;
+  width: 400px;
+  overflow: auto;
+  overflow-x: hidden;
+  margin-top: 20px;
+}
+
+.descriptiontext::-webkit-scrollbar {
+  width: 5px;
+  background: rgb(182, 182, 182);
+  border-radius: 50px;
+}
+
+.descriptiontext::-webkit-scrollbar-thumb {
+  background: rgb(160, 158, 158);
+}
+
+.descriptiontext > div {
+  padding-right: 10px;
+}
+
+.pricetext {
+  /* PRICE: */
+
+  width: 50px;
+  height: 18px;
+  left: 929px;
+  top: 466px;
+
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #1d1f22;
+}
+
+.amounttext {
+  /* $50.00 */
+
+  width: 86px;
+  height: 46px;
+  left: 929px;
+  top: 494px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 18px;
+  /* or 75% */
+  display: flex;
+  align-items: center;
+
+  color: #1d1f22;
+}
+
+.addtocart {
+  /* _Button / Elements / Common */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 32px;
+
+  width: 292px;
+  height: 52px;
+  left: 929px;
+  top: 560px;
+  border: none;
+  background: #5ece7b;
+  /* --button-font */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  /* identical to box height, or 19px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* --c-white */
+  color: #ffffff;
+
+  /* Inside auto layout */
+}
+
+.addtocart:hover {
+  outline: 1px solid grey;
+
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}

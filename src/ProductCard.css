@@ -1,0 +1,88 @@
+img {
+  width: 450px;
+  height: 330px;
+}
+
+.shopiconimg {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+
+.productcard {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 30px;
+  height: 450px;
+}
+.productcard:hover {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.description {
+  /* Title */
+
+  width: 354px;
+  height: 29px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+  display: flex;
+  align-items: center;
+
+  margin-top: 30px;
+  /* --c-black */
+  color: #1d1f22;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.priceandcurrency {
+  /* Label */
+
+  width: 58px;
+  height: 19px;
+  /* --price-regular-font */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+  text-align: right;
+  padding: 0;
+  /* --c-black */
+  color: #1d1f22;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.productcard .shopIcon {
+  visibility: hidden;
+}
+
+.productcard:hover .shopIcon {
+  visibility: visible;
+  background-color: #5ece7b;
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  bottom: 130px;
+  left: 430px;
+  border-radius: 40px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}

@@ -1,17 +1,8 @@
-import logo from "./logo.svg";
-
 import React, { Component } from "react";
 import Home from "./Home";
-import {
-  ApolloClient,
-  InMemoryCache,
-  ApolloProvider,
-  gql,
-} from "@apollo/client";
 
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Header from "./Header";
-import ProductCard from "./ProductCard";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import ProductDetailsPage from "./ProductDetailsPage";
 import Cart from "./Cart";
 class App extends Component {

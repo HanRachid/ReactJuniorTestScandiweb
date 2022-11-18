@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "./ProductCard.css";
 
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import shopcart from "./img/shoppingcart.png";
+import { Link } from "react-router-dom";
 import shopcartwhite from "./img/shoppingcartwhite.png";
 export default class ProductCard extends Component {
   constructor(props) {

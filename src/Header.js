@@ -3,13 +3,8 @@ import "./Header.css";
 import imag from "./img/greenbag.png";
 import shopcart from "./img/shoppingcart.png";
 import downarrow from "./img/arrow-down-sign-to-navigate.png";
-import {
-  ApolloClient,
-  InMemoryCache,
-  ApolloProvider,
-  gql,
-} from "@apollo/client";
-import { BrowserRouter, Routes, Route, Link, Navigate } from "react-router-dom";
+import { ApolloClient, InMemoryCache, gql } from "@apollo/client";
+import { Link, Navigate } from "react-router-dom";
 import CartOverlay from "./CartOverlay";
 
 export default class Header extends Component {

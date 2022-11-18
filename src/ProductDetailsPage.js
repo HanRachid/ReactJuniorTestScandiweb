@@ -3,19 +3,6 @@ import React, { Component } from "react";
 import ProductDetails from "./ProductDetails";
 import Header from "./Header";
 
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  Link,
-  useParams,
-} from "react-router-dom";
-import {
-  ApolloClient,
-  InMemoryCache,
-  ApolloProvider,
-  gql,
-} from "@apollo/client";
 export default class ProductDetailsPage extends Component {
   constructor(props) {
     super();
